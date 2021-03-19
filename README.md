@@ -48,9 +48,9 @@ Exchange is a imitate of the real exchange and the backtest framework is event-d
  
  Through the system, it's obvious that the mean variance model is vary sensitive to the parameter and in the system I suppose that short is allowed but in Chinese market it't a liitle difficult to short so I think there will be two points that can be improved.
  
- ## To change the suppose which satisfies the condition of Chinese stock markets.
+ ### To change the suppose to satisfy the condition of Chinese stock markets.
  
- ## Can use other models like Black-Litterman, risk parity and so on to improbe the robustness of the strategy and make it more efficiency.
+ ### Ue other models like Black-Litterman, risk parity and so on to improve the robustness of the strategy and make it more efficiency.
  
 
 
