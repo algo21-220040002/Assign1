@@ -19,5 +19,39 @@ Exchange is a imitate of the real exchange and the backtest framework is event-d
  
  ## Engine
  The Engine.py is the main function of the system. It will import the packages above and run the system.
+ 
+ ## Run the system
+ 
+ ### data
+ 
+ I select three assets in Chinese market: They are "医药生物","传媒","新能源指数". And I do the backtest from 2018 to 2020.
+ 
+ ### Portfolio optimization
+ The Portfolio_optimization will use data of last ten months to give the objective position.
+ 
+ The following are some of the objective portfolio the model gives:
+ ![image](https://github.com/algo21-220040002/Assign1/blob/master/Paper/portfolio.jpg)
+ 
+ The trader will send the objective position to the exchange then the exchange will update the information of the account such as the total banlance,the cash, the banlance of one asset.
+ 
+  ### The account information in the exchange
+ The followings are the account info in the exchange:
+ ![image](https://github.com/algo21-220040002/Assign1/blob/master/Paper/account_info.jpg)
+ 
+
+ ### The PNL
+ Finally, it will draw the PNL dynamically as time goes by. The following is a examplt:
+  ![image](https://github.com/algo21-220040002/Assign1/blob/master/Paper/PNL.png)
+  
+  
+ ## Summary
+ 
+ Through the system, it's obvious that the mean variance model is vary sensitive to the parameter and in the system I suppose that short is allowed but in Chinese market it't a liitle difficult to short so I think there will be two points that can be improved.
+ 
+ ## To change the suppose which satisfies the condition of Chinese stock markets.
+ 
+ ## Can use other models like Black-Litterman, risk parity and so on to improbe the robustness of the strategy and make it more efficiency.
+ 
+
 
 
