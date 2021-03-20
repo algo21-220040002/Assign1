@@ -50,7 +50,7 @@ Exchange is a imitate of the real exchange and the backtest framework is event-d
  
  ### To change the suppose to satisfy the condition of Chinese stock markets.
  
- ### Ue other models like Black-Litterman, risk parity and so on to improve the robustness of the strategy and make it more efficiency.
+ ### Use other models like Black-Litterman, risk parity and so on to improve the robustness of the strategy and make it more efficiency.
  
 
 
